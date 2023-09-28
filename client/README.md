@@ -4,6 +4,11 @@
 
 # cai dat
 
-- cai `npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p`
--
+- cai `npm install -D tailwindcss postcss autoprefixer` va `npx tailwindcss init -p`
+- cai `npm i react-router-dom`
+
+# Noi dung thuc hien
+
+## Noi dung hien tai
+
+- Add routes and create pages
