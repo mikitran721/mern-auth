@@ -9,6 +9,8 @@
 
 # Noi dung thuc hien
 
+- Add routes and create pages
+
 ## Noi dung hien tai
 
-- Add routes and create pages
+- create header component
