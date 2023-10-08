@@ -30,3 +30,4 @@
 - complete sign up page UI
 - complete sign upp page functionality
 - create sign in API route
+- complete the sign in page functionality
