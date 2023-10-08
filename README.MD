@@ -8,9 +8,9 @@
 # GHI CHU:
 
 - tao schema, sau do tao model
--
+- tu app->routes->controller
 
 # NOI DUNG
 
 - create and add user model
--
+- create a test API route
