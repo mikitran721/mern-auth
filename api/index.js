@@ -2,6 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import userRoutes from "./routes/user.route.js";
+import authRoutes from "./routes/auth.route.js";
 
 //using dotenv
 dotenv.config();
@@ -18,6 +19,8 @@ mongoose
 
 const app = express();
 
+app.use(express.json());
+
 app.listen(3300, () => {
   console.log("Server listening on port 3300");
 });
@@ -29,4 +32,8 @@ app.listen(3300, () => {
   });
 }); */
 
+//user route
 app.use("/api/user", userRoutes);
+
+//auth route
+app.use("/api/auth", authRoutes);
