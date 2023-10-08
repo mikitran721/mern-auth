@@ -38,7 +38,7 @@ app.use("/api/user", userRoutes);
 //auth route
 app.use("/api/auth", authRoutes);
 
-// handle error
+// handle error - su dung next(error) trong controller
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
   const message = err.message || "Internal Server Error";
