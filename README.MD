@@ -18,3 +18,5 @@
 - create and add user model
 - create a test API route
 - create sign up API route
+- create a middleware and a function to handle the errors
+-
