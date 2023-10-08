@@ -20,3 +20,5 @@
 - create sign up API route
 - create a middleware and a function to handle the errors
 - complete sign up page UI
+- complete sign upp page functionality
+-
