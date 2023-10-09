@@ -11,7 +11,8 @@
 - cai `npm i dotenv`
 - su dung `Insomnia api test` de test thay vi postman
 - cai `npm i bcryptjs` dung hash password
-- cai `npm i jsonwebtoken`
+- cai `npm i jsonwebtoken` luu o cookie
+- cai `npm install @reduxjs/toolkit react-redux`
 
 # GHI CHU:
 
@@ -31,3 +32,4 @@
 - complete sign upp page functionality
 - create sign in API route
 - complete the sign in page functionality
+- Add redux toolkit
