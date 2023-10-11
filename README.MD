@@ -13,6 +13,7 @@
 - cai `npm i bcryptjs` dung hash password
 - cai `npm i jsonwebtoken` luu o cookie
 - cai `npm install @reduxjs/toolkit react-redux`
+- cai `npm i redux-persist`
 
 # GHI CHU:
 
@@ -33,3 +34,4 @@
 - create sign in API route
 - complete the sign in page functionality
 - Add redux toolkit
+- Add redux Persit

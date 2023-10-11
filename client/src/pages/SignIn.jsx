@@ -52,6 +52,7 @@ export default function SignIn() {
         dispatch(signInFailure(data.error));
         return true;
       }
+      // console.log(">> check data: ", data);
       dispatch(signInSuccess(data));
 
       navigate("/"); //chuyen ve homepage
