@@ -38,4 +38,5 @@
 - Add redux toolkit
 - Add redux Persit
 - Create and add OAuth component
+- update the header component and make the profile page private
 -
