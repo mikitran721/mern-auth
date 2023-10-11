@@ -1,6 +1,6 @@
 # MIKI SAYS HELLO
 
-- Project: MERN AUTH; su dung VietJs, ExpressJs, tailwindcss, Bcryptjs, JWT, MongoDB,
+- Project: MERN AUTH; su dung VietJs, ExpressJs, tailwindcss, Bcryptjs, JWT, MongoDB, Firebase-google; Redux-persist;
 - Deploy all in on hosting via ...
 
 # cai dat
@@ -14,6 +14,8 @@
 - cai `npm i jsonwebtoken` luu o cookie
 - cai `npm install @reduxjs/toolkit react-redux`
 - cai `npm i redux-persist`
+- cai `npm i firebase` sau khi dang ky project trong firebase-goole de lay API_KEY; can tao va enable `authentication` len truoc khi su dung
+-
 
 # GHI CHU:
 
@@ -35,3 +37,5 @@
 - complete the sign in page functionality
 - Add redux toolkit
 - Add redux Persit
+- Create and add OAuth component
+-
