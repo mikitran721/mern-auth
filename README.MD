@@ -15,7 +15,7 @@
 - cai `npm install @reduxjs/toolkit react-redux`
 - cai `npm i redux-persist`
 - cai `npm i firebase` sau khi dang ky project trong firebase-goole de lay API_KEY; can tao va enable `authentication` len truoc khi su dung
--
+- cai `npm i cookie-parser`
 
 # GHI CHU:
 
@@ -41,3 +41,5 @@
 - update the header component and make the profile page private
 - complete profile page UI
 - update Image functionality
+- Create update API route
+-
