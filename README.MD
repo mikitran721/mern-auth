@@ -1,6 +1,6 @@
 # MIKI SAYS HELLO
 
-- Project: MERN AUTH; su dung VietJs, ExpressJs, tailwindcss, Bcryptjs, JWT, MongoDB, Firebase-google; Redux-persist;
+- Project: MERN AUTH; su dung VietJs, ExpressJs, tailwindcss, Bcryptjs, JWT, MongoDB, Firebase-google:Auth, storage; Redux-persist;
 - Deploy all in on hosting via ...
 
 # cai dat
@@ -40,3 +40,4 @@
 - Create and add OAuth component
 - update the header component and make the profile page private
 - complete profile page UI
+- update Image functionality
