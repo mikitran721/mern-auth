@@ -42,4 +42,4 @@
 - complete profile page UI
 - update Image functionality
 - Create update API route
--
+- Complete update user functionality
