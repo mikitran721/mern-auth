@@ -44,3 +44,4 @@
 - Create update API route
 - Complete update user functionality
 - Add delete user functionality
+- Add sign out user functionality
