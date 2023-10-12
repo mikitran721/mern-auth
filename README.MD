@@ -45,3 +45,4 @@
 - Complete update user functionality
 - Add delete user functionality
 - Add sign out user functionality
+- complete home and about pages
