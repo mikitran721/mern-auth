@@ -1,6 +1,7 @@
 import { errorHandle } from "../utils/error.js";
 import bcryptjs from "bcryptjs";
 import User from "../models/user.model.js";
+import { trusted } from "mongoose";
 
 export const test = (req, res) => {
   res.json({
@@ -36,6 +37,20 @@ export const updateUser = async (req, res, next) => {
     // remove password before send for client side
     const { password, ...rest } = updatedUser._doc;
     res.status(200).json(rest);
+  } catch (error) {
+    next(error);
+  }
+};
+
+// deleteUser
+export const deleteUser = async (req, res, next) => {
+  if (req.user.id !== req.params.id) {
+    return next(errorHandle(401, "You can delete only your account!"));
+  }
+
+  try {
+    await User.findByIdAndDelete(req.params.id);
+    res.status(200).json("User has been deleted...");
   } catch (error) {
     next(error);
   }
