@@ -1,7 +1,13 @@
 # MIKI SAYS HELLO
 
+- This is full-stack web application built with MERN (MongoDB, Express, React, Node.js) stack. It includes authentication features that allow users to sign up, log in, and log out, and provides access to protectd routes only for authenticated users.
+
+The front-end of the application is built with React and uses React Router for client-side routing. The back-end is built with Node.js and Express, and uses MongoDB as the database. Authentication is implemented using JON Web Token (JWT).
+
+This application is intended as a staring point for building full-stack web application with authentication using the MERN stack. Fell free to use it as a template for your own projects!
+
 - Project: MERN AUTH; su dung VietJs, ExpressJs, tailwindcss, Bcryptjs, JWT, MongoDB, Firebase-google:Auth, storage; Redux-persist;
-- Deploy all in on hosting via ...
+- Deploy all in on hosting via RENDER
 
 # cai dat
 
@@ -46,3 +52,4 @@
 - Add delete user functionality
 - Add sign out user functionality
 - complete home and about pages
+- deploy to RENDER
